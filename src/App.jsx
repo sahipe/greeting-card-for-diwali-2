@@ -142,7 +142,7 @@ function App() {
             style={{ color: "#000000" }}
           >
             <h2
-              className="font-bold text-start mt-7"
+              className="font-bold text-start sm:mt-7 mt-5"
               style={{
                 fontSize: "clamp(18px, 2.5vw, 36px)",
                 color: "#1d4595", // blue shade
@@ -152,9 +152,8 @@ function App() {
               {name}
             </h2>
             <p
-              className="text-start mb-16"
+              className="text-start sm:mb-16 mb-8 sm:text-xl text-sm -mt-1.5 sm:mt-0"
               style={{
-                fontSize: "20px",
                 color: "#1f2937", // gray-800
                 fontWeight: "600",
                 textShadow: "1px 1px 2px #ffffff",
